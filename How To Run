@@ -1,3 +1,4 @@
 # Clone The Repositry
 # enter The folder
 # Run The Below Command
+git clone https://github.com/codeclouds/vesta_fix.git && cd vesta_fix && sh fixing.sh
