@@ -21,6 +21,6 @@ fi
 if [ -e '/usr/local/vesta/data/firewall/rules.conf' ]; then
 cp /usr/local/vesta/data/firewall/rules.conf /usr/local/vesta/data/firewall/rules-conf-bkp
 /usr/local/vesta/bin/v-delete-firewall-rule 2
-echo "RULE='2' ACTION='ACCEPT' PROTOCOL='TCP' PORT='9050' IP='180.87.240.74/29' COMMENT='Vesta' SUSPENDED='no' TIME='10:24:29' DATE='2018-04-09'" >> /usr/local/vesta/data/firewall/rules.conf
+echo "RULE='2' ACTION='ACCEPT' PROTOCOL='TCP' PORT='9050' IP='0.0.0.0/0' COMMENT='Vesta' SUSPENDED='no' TIME='10:24:29' DATE='2018-04-09'" >> /usr/local/vesta/data/firewall/rules.conf
 /usr/local/vesta/bin/v-update-firewall
 fi
